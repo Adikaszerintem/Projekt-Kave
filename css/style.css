@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 5%;
+    background-image: url(..//images/image2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    transition: .2s linear;
+}
+html{
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #fff;
+}
+.header__menu .container-fluid:first-of-type{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #b4b4b467;
+    box-shadow: 0 0 100px 5px #181818bd;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    color: #b4b4b4;
+    text-transform: capitalize;
+}
+a:hover, ion-icon:hover, .menu__logo p a{
+    color: #000000 !important;
+}
+.menu__logo p a{
+    font-style: normal;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+}
+.header__menu .container-fluid{
+    align-items: center;
+}
+.header__menu .container-fluid, .nav__menu ul, .menu__icons, .header__content .container{
+    justify-content: space-around;
+    display: flex;
+}
+.header__menu .container-fluid div{
+    padding: 30px 0px;
+}
+.nav__menu ul{
+    gap: 60px;
+}
+.menu__icons{
+    gap: 30px;
+}
+.nav__menu ul, .menu__icons, p, section, .header__menu .container-fluid, .header__content .container{
+    padding: 0;
+}
+.nav__menu ul, .menu__icons, p, section{
+    margin: 0;
+}
+.menu__icons span ion-icon, a{
+    font-size: 22px;
+    transition: .8s;
+}
+.header__content, .container{
+    align-items: center;
+}
+.header__content .content__img img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.header__content h1, .header__content p{
+    padding: 0 0 40px 0;
+}
+.header__content h1{
+    font-size: 70px;
+    font-style: italic;
+    color: #000;
+    margin: 0;
+}
+.header__content p{
+    color: #8f8f8f;
+}
+.header__content button, .main__menu button{
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(-45deg, rgb(97, 42, 5),rgba(206, 90, 13, 0.824),rgb(97, 42, 5));
+    background-color: #703107d2;
+    color: #fff;
+    transition: .8s ease-in;
+}
+main .container{
+    padding: 10% 0;
+}
+main .container h2{
+    font-size: 80px;
+    padding: 0 0 30px 0;
+    color: #000;
+}
+main .container p{
+    font-size: 20px;
+}
+main .container h2, main .container p{
+    color: #fff;
+    text-align: center;
+}
+.main__menu{
+    /**background: linear-gradient(-45deg, rgb(82, 53, 34),rgb(160, 143, 131),rgb(82, 53, 34));**/
+    background-image: url(..//images/still-life-with-delicious-iced-coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: #bd7e3696;
+}
+.kavek .col-lg-4 div img{
+    margin-bottom: 40%;
+    height: 302px;
+}
+.kavek .col-lg-4 div{
+    background-image: url(..//images/9612855.png);
+}
+.sutik .col-lg-4 div{
+    background-color: #fff;
+}
+.sutik .col-lg-4 div img{
+    background-color: #fff;
+}
+.main__menu .col-lg-4 div{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 100px 5px #181818e0;
+}
+.main__menu .container{
+    padding: 5% 0;
+}
+.main__menu .container h2{
+    padding: 0 0 5% 0;
+}
+.main__menu .container .row:last-of-type{
+    padding: 5% 0;
+}
+.main__menu .col-lg-4 div h3{
+    padding: 20px 0 0 0;
+    font-size: 60px;
+    color: #000;
+}
+.main__menu .col-lg-4{
+    text-align: center;
+}
+.main__menu .col-lg-4 div img{
+    width: 100%;
+}
+.second div img{
+    border-radius: 25%;
+}
+.main__menu button{
+    padding: 15px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+    border: none;
+    background: #000;
+    color: #fff;
+    transition: .8s ease-in;
+}
+footer .footer__top{
+    background-color: #0f0f0f;
+}
+footer .footer__bottom{
+    background-color: #000000;
+}
+footer table{
+    margin: 0 auto;
+}
+footer table tr td{
+    padding: 5px 40px;
+    align-items: center;
+}
+footer .container{
+    padding: 30px 0 0 0;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+footer .container:last-of-type{
+    padding: 20px 0 !important;
+}
+footer a:hover, footer ion-icon:hover{
+    color: #ffffff !important;
+}
